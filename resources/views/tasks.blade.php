@@ -9,21 +9,23 @@
       overflow-x: hidden;
       color:#1a2e3e;
       font-family: 'Slabo 27px', serif;
-      background-color: #355c7d;
+      background: linear-gradient(to right, rgb(255, 175, 189), rgb(255, 195, 160));
     }
+
     .todo--header {
       color: #ffffff;
     }
+
     .todo--section {
-        background-color: #aebdcb;
-        padding-bottom: 10px;
-        opacity: 0.9;
+      background-color: #ffffff;
+      opacity: 0.8;
+      padding: 15px;
+      margin-bottom: 15px;
     }
 
     .todo--section__title {
-      background-color: #5d7c97;
+      background-color: #ffffff;
       padding : 3px;
-      margin-top: 3%;
       margin-bottom: 3%;
     }
 
@@ -39,7 +41,6 @@
 
     .todo--list {
       margin-bottom: 10px;
-      border-bottom: 1px solid #ffffff;
     }
 
     .todo--list__title {
